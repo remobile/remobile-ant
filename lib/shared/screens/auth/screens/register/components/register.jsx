@@ -1,5 +1,4 @@
 import React, {PropTypes} from 'react';
-import RegisterAdmin from 'components/RegisterAdmin';
 
 export default class Init extends React.Component {
     static propTypes = {
@@ -13,7 +12,6 @@ export default class Init extends React.Component {
                 <br />
                 <br />
                 <br />
-                <RegisterAdmin isSuper onSubmit={this.props.onSubmit} />
              </div>
         );
     }
