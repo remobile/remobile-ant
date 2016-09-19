@@ -11,7 +11,7 @@ module.exports = {
   },
   resolve: {
     modulesDirectories: ['shared', 'node_modules'],
-    extensions: ['', '.web.js', '.js', '.jsx', '.json']
+    extensions: ['', '.js', '.jsx', '.json']
   },
   externals: [nodeExternals()],
   plugins: [
@@ -52,7 +52,7 @@ module.exports = {
                 imports: ['react', 'redbox-react']
               }
             ]
-        }], ["antd", { "style": true, "libraryName": "antd-mobile" }]]
+        }]]
         }
       },
       {

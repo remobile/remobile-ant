@@ -1,6 +1,5 @@
 import React, {PropTypes} from 'react';
 import _ from 'lodash';
-import { Toast } from 'antd-mobile';
 
 function noop() {
   return false;

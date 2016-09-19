@@ -22,7 +22,7 @@ var webpackConfig = module.exports = {
   // devtool: 'eval',
   resolve: {
     modulesDirectories: ['shared', 'node_modules'],
-    extensions: ['', '.web.js', '.js', '.jsx', '.json']
+    extensions: ['', '.js', '.jsx', '.json']
   },
   plugins: [
     new optimize.OccurenceOrderPlugin(),
@@ -57,7 +57,7 @@ var webpackConfig = module.exports = {
                   imports: ['react', 'redbox-react']
                 }
               ]
-          }], ["antd", { "style": true, "libraryName": "antd-mobile" }]]
+          }]]
         }
       },
       {
