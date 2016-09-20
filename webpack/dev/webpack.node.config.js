@@ -52,7 +52,7 @@ module.exports = {
                 imports: ['react', 'redbox-react']
               }
             ]
-        }]]
+        }], ["antd", [{ "libraryName": "antd" }, { "libraryName": "antd-mobile" }]]]
         }
       },
       {
