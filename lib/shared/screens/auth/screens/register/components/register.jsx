@@ -33,9 +33,7 @@ export default class Register extends React.Component {
                 ...administrator,
                 phone: value.phone,
                 password: value.password,
-                name: value.name,
                 email: value.email,
-                authority: value.authority,
             });
         });
     }
